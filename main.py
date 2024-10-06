@@ -1,16 +1,14 @@
-from sage.all import *
+import sys
+import tkinter as tk
 
-questionType = input("(0-?) What question type?: ")
+def main():
+    questionType = input("(0-?) What question type?: ") # input() returns a string
 
-print(f"You asked for question type: {questionType}")
+    if(questionType == "0"):
+        print("Exiting program")
+        sys.exit(0)
 
-def randominteger():
-
-if(questionType = 0) {
-    }
-
-
-
+    print(f"You asked for question type: {questionType}")
 
 
 
@@ -38,3 +36,20 @@ if(questionType = 0) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
